@@ -1,0 +1,29 @@
+{
+  "name": "mongoose-assocks",
+  "version": "0.1.0",
+  "author": "Austin Pocus <ajpocus@gmail.com>",
+  "description": "Automatically updates the opposite end of your ObjectId fields.",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajpocus/mongoose-assocks.git"
+  },
+  "keywords": [
+    "mongoose",
+    "database",
+    "relationships",
+    "associations"
+  ],
+  "dependencies" : {
+    "mongoose": "3.x",
+    "underscore": "latest"
+  },
+  "devDependencies": {
+    "mocha": "1.x",
+    "should": "1.x"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
